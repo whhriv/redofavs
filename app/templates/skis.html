@@ -4,11 +4,11 @@
 
     
     
-    {% for fav in favorites %}
+    {% for fav in images %}
        
             <div>
-                <li><img src="{{ image }}" alt="Image"></li>
-           
+               
+                <img src="static/{{ fav }}"/>
             </div>
         
     {% endfor %}
