@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block main %}
+
+    
+    
+    {% for fav in favorites %}
+       
+            <div>
+                <li><img src="{{ image }}" alt="Image"></li>
+           
+            </div>
+        
+    {% endfor %}
+
+
+{% endblock %}

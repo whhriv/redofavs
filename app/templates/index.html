@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block main %}
+<img src="{{url_for('static', filename='ski1.jpg')}}" />
+<img src="{{url_for('static', filename='ski2.jpg')}}" />
+<img src="{{url_for('static', filename='ski3.jpg')}}" />
+<img src="{{url_for('static', filename='ski4.jpg')}}" />
+<img src="{{url_for('static', filename='ski5.jpg')}}"/>
+    
+    
+    
+    <div class="col text-center">
+        
+       
+        <a href="{{ url_for('ski_images') }}" class="btn btn-outline-primary w-100">Click here</a>
+    </div>
+{% endblock %}
